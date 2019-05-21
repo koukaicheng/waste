@@ -20,10 +20,19 @@
     }
 }
 
+/*@media (min-width:1200px) {*/
+
+/*    .zoom img{*/
+/*        height: 270px;*/
+/*    }*/
+/*}*/
+
+
 @media (min-width: 768px) {
     .navbar-normal .nav-icon {
         display: none;
     }
+
 }
 
 .navbar-auto .nav {
@@ -66,6 +75,18 @@
     .navbar-toggle {
         display: none;
     }
+    .zoom img{
+        height: 220px;
+    }
+
+}
+
+@media (max-width: 992px) {
+
+    .zoom img{
+        height: 200px;
+    }
+
 }
 
 .navbar-toggle .bar {
